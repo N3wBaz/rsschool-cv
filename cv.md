@@ -41,4 +41,6 @@ def highest_rank(data):
 ## Experience
 *    Capstone ML project https://github.com/N3wBaz/forest_project
 
-## English Upper-intermediate level
+## Language
+*    English : Upper-intermediate level
+*    Russian : Native
