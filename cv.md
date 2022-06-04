@@ -20,7 +20,7 @@ I work as engineer for sixteen years at Electrical Chemical Plant. I’m respons
 
 ## Code Example:
 KATA from CODEWARS:Complete the method which returns the number which is most frequent in the given input array. If there is a tie for most frequent number, return the largest number among them.
-'''
+```
 from collections import Counter
 def highest_rank(data):   
     a = set()
@@ -31,7 +31,7 @@ def highest_rank(data):
             a.add(i)
     arr1 = [x for x in arr if x[1] == max(arr, key=lambda tup: tup[1])[1]]
     return max(arr1, key=lambda x: x[0])[0]
-'''
+```
 
 ## Education:
 *    Tomsk Polytechnic University, Faculty of Physics and Technology, specialist
