@@ -1,4 +1,4 @@
-[rsschool-cv](адрес "Описание")
+# [rsschool-cv](адрес "Описание")
 # Romanov Ruslan
 ******
 ## Contacts: 
@@ -7,7 +7,7 @@
 *   Location: Russia, Zelenogorsk (Krasnoyarsk Krai)
 ******
 ## Briefly About Myself:
-    I work as engineer for sixteen years at Electrical Chemical Plant. I’m responsible, punctual person with communication skills and ability to work in a team. I like studying and get some new knowledge. About two year ago I start learning programming, algorithms and etc., because I want to change my professional field of activity to IT (development, machine learning or something) and I hard working to achieve it.
+I work as engineer for sixteen years at Electrical Chemical Plant. I’m responsible, punctual person with communication skills and ability to work in a team. I like studying and get some new knowledge. About two year ago I start learning programming, algorithms and etc., because I want to change my professional field of activity to IT (development, machine learning or something) and I hard working to achieve it.
 ******
 ## Skills:
 *   HTML, CSS/less
