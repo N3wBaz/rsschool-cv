@@ -1,4 +1,4 @@
-# [rsschool-cv](адрес "Описание")
+# [rsschool-cv](https://N3wbaz.github.io/rsschool-cv/cv)
 # Romanov Ruslan
 
 ## Contacts: 
@@ -41,6 +41,6 @@ def highest_rank(data):
 ## Experience
 *    Capstone ML project https://github.com/N3wBaz/forest_project
 
-## Language
+## Languages:
 *    English : Upper-intermediate level
 *    Russian : Native
