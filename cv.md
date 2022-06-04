@@ -36,7 +36,7 @@ def highest_rank(data):
 ## Education:
 *    Tomsk Polytechnic University, Faculty of Physics and Technology, specialist
 *    Deep learning school part 1, 2. (CV, NLP) [DLSchool](https://www.dlschool.org/)  
-*    The Rolling Scopes School. Introduction to Machine Learning. https://rs.school/machine-learning/
+*    The Rolling Scopes School. [Introduction to Machine Learning](https://rs.school/machine-learning/)
 
 ## Experience
 *    Capstone ML project https://github.com/N3wBaz/forest_project
