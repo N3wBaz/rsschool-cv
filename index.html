@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>cv</title>
+  <link rel="icon" href="./assets/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">          
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">Language</a></li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <div class="section-profile-title">
+            <h1 class="section-title main-title">Romanov Ruslan</h1>
+            <div class="prof">
+                <h3 class="section-subtitle">Engineer</h3>
+            </div>
+            
+          </div>   
+        <img src="./img/funny_monster.jpg" alt="my logo" class="section-profile-logo">     
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">
+            Zelenogorsk, Russia
+          </li>
+          <li class="section-item contacts-item">
+            Email: <a href="mailto:ftnewt@gmail.com" title="email">ftnewt@gmail.com</a>
+          </li>
+          <li class="section-item contacts-item">
+            Github: <a href="https://github.com/n3wbaz" title="github">Romanov Ruslan</a>
+          </li>
+          <li class="section-item contacts-item">
+            Discord: <a href="https://discord.gg/zUr7wWYPXE" title="github">@Romanov Ruslan#4021</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+            I work as engineer for sixteen years at Electrical Chemical Plant. I’m responsible, punctual person with communication skills and ability to work in a team. I like studying and get some new knowledge. About two year ago I start learning programming, algorithms and etc., because I want to change my professional field of activity to IT (development, machine learning or something) and I hard working to achieve it.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Web:<span> HTML, CSS/less</span>
+          </li>
+          <li class="section-item">
+            Languages:<span> JavaScript(Basic), Python </span>
+          </li>
+          <li class="section-item">
+            Frameworks and libraries:<span> numpy, pandas, sklearn, Pytorch and etc., packaging and dependency management system (conda, poetry), pytest, black, nox, experiment tracking (MLflow), Prefect</span>
+          </li>
+          <li class="section-item">
+            Version control:<span> GIT, Github</span>
+          </li>
+          <li class="section-item">
+            Graphics:<span> Photoshop, Illustrator, Figma</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <p>KATA from CODEWARS:Complete the method which returns the number which is most frequent in the given input array. If there is a tie for most frequent number, return the largest number among them :</p>
+        <pre class="pre">
+            <code>
+from collections import Counter
+def highest_rank(data):   
+    a = set()
+    arr = []
+    for i in data:
+        if i not in a:
+            arr.append((i, data.count(i)))
+            a.add(i)
+    arr1 = [x for x in arr if x[1] == max(arr, key=lambda tup: tup[1])[1]]
+    return max(arr1, key=lambda x: x[0])[0]
+            </code>
+        </pre>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            DLSchool<span> - Deep learning school part 1, 2. (CV, NLP) </span>
+          </li>
+          <li class="section-item">
+            RS School<span> - The Rolling Scopes School. Introduction to Machine Learning</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            <a href="https://github.com/N3wBaz/forest_project/">RS School ML project</a>
+          </li>          
+        </ul>
+      </section>
+      <section class="section section-education" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>Tomsk Polytechnic University, Faculty of Physics and Technology, specialist</p>
+      </section>
+      <section class="section section-english" id="english">
+        <h2 class="section-title">Language</h2>
+        <p>English : Upper-intermediate level</p>
+        <p>Russian : Native</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="foot-div"> 2022 <a href="https://github.com/n3wbaz" class="github foot-link">romanovruslan</a></div>
+      <a href="https://rs.school/js/" class="rss"><img class="foot-logo" src="./img/rs_school_js.svg" alt="RS school logo"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
